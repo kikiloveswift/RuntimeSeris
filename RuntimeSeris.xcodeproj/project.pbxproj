@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3EAE86D87F0716AE44D223 /* libPods-RuntimeSeris.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D796E6C1307AE0B77CB6273 /* libPods-RuntimeSeris.a */; };
 		FC296AC51D8A8971006CE701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296AC41D8A8971006CE701 /* main.m */; };
-		FC296AC81D8A8971006CE701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296AC71D8A8971006CE701 /* AppDelegate.m */; };
-		FC296ACB1D8A8971006CE701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296ACA1D8A8971006CE701 /* ViewController.m */; };
 		FC296ACE1D8A8971006CE701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC296ACC1D8A8971006CE701 /* Main.storyboard */; };
 		FC296AD01D8A8971006CE701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC296ACF1D8A8971006CE701 /* Assets.xcassets */; };
 		FC296AD31D8A8971006CE701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC296AD11D8A8971006CE701 /* LaunchScreen.storyboard */; };
 		FC296ADE1D8A8971006CE701 /* RuntimeSerisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296ADD1D8A8971006CE701 /* RuntimeSerisTests.m */; };
 		FC296AE91D8A8971006CE701 /* RuntimeSerisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296AE81D8A8971006CE701 /* RuntimeSerisUITests.m */; };
+		FCCA5FE01D8BFD89006A7B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FDF1D8BFD89006A7B09 /* ViewController.m */; };
+		FCCA5FE31D8BFDA8006A7B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FE21D8BFDA8006A7B09 /* AppDelegate.m */; };
+		FCCA5FE81D8BFE8D006A7B09 /* CustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FE71D8BFE8D006A7B09 /* CustomClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6740F41E4FBA4C8C05278F /* Pods-RuntimeSeris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeSeris.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeSeris/Pods-RuntimeSeris.release.xcconfig"; sourceTree = "<group>"; };
+		6D796E6C1307AE0B77CB6273 /* libPods-RuntimeSeris.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RuntimeSeris.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDDD6939927045B4BD40A41 /* Pods-RuntimeSeris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeSeris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeSeris/Pods-RuntimeSeris.debug.xcconfig"; sourceTree = "<group>"; };
 		FC296AC01D8A8970006CE701 /* RuntimeSeris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeSeris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC296AC41D8A8971006CE701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC296AC61D8A8971006CE701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FC296AC71D8A8971006CE701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC296AC91D8A8971006CE701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC296ACA1D8A8971006CE701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC296ACD1D8A8971006CE701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC296ACF1D8A8971006CE701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC296AD21D8A8971006CE701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		FC296AE41D8A8971006CE701 /* RuntimeSerisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeSerisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC296AE81D8A8971006CE701 /* RuntimeSerisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeSerisUITests.m; sourceTree = "<group>"; };
 		FC296AEA1D8A8971006CE701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCA5FDE1D8BFD89006A7B09 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCCA5FDF1D8BFD89006A7B09 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCCA5FE11D8BFDA8006A7B09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCCA5FE21D8BFDA8006A7B09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCCA5FE61D8BFE8D006A7B09 /* CustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClass.h; sourceTree = "<group>"; };
+		FCCA5FE71D8BFE8D006A7B09 /* CustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClass.m; sourceTree = "<group>"; };
+		FCCA5FE91D8BFEC1006A7B09 /* config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3EAE86D87F0716AE44D223 /* libPods-RuntimeSeris.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		459F86E852FAF1A2C241049D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACDDD6939927045B4BD40A41 /* Pods-RuntimeSeris.debug.xcconfig */,
+				2A6740F41E4FBA4C8C05278F /* Pods-RuntimeSeris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F2CFDA99AB99626F45B14AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D796E6C1307AE0B77CB6273 /* libPods-RuntimeSeris.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC296AB71D8A8970006CE701 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				FC296ADC1D8A8971006CE701 /* RuntimeSerisTests */,
 				FC296AE71D8A8971006CE701 /* RuntimeSerisUITests */,
 				FC296AC11D8A8970006CE701 /* Products */,
+				459F86E852FAF1A2C241049D /* Pods */,
+				6F2CFDA99AB99626F45B14AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +129,10 @@
 		FC296AC21D8A8970006CE701 /* RuntimeSeris */ = {
 			isa = PBXGroup;
 			children = (
-				FC296AC61D8A8971006CE701 /* AppDelegate.h */,
-				FC296AC71D8A8971006CE701 /* AppDelegate.m */,
-				FC296AC91D8A8971006CE701 /* ViewController.h */,
-				FC296ACA1D8A8971006CE701 /* ViewController.m */,
+				FCCA5FDA1D8BFD3D006A7B09 /* Basic */,
+				FCCA5FDB1D8BFD3D006A7B09 /* FrameWork */,
+				FCCA5FDC1D8BFD3D006A7B09 /* Source */,
+				FCCA5FDD1D8BFD89006A7B09 /* Main */,
 				FC296ACC1D8A8971006CE701 /* Main.storyboard */,
 				FC296ACF1D8A8971006CE701 /* Assets.xcassets */,
 				FC296AD11D8A8971006CE701 /* LaunchScreen.storyboard */,
@@ -140,6 +168,58 @@
 			path = RuntimeSerisUITests;
 			sourceTree = "<group>";
 		};
+		FCCA5FDA1D8BFD3D006A7B09 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA5FE11D8BFDA8006A7B09 /* AppDelegate.h */,
+				FCCA5FE21D8BFDA8006A7B09 /* AppDelegate.m */,
+				FCCA5FE91D8BFEC1006A7B09 /* config.pch */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		FCCA5FDB1D8BFD3D006A7B09 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		FCCA5FDC1D8BFD3D006A7B09 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FCCA5FDD1D8BFD89006A7B09 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA5FE41D8BFE5C006A7B09 /* VC */,
+				FCCA5FE51D8BFE65006A7B09 /* Model */,
+			);
+			name = Main;
+			path = Source/Main;
+			sourceTree = "<group>";
+		};
+		FCCA5FE41D8BFE5C006A7B09 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA5FDE1D8BFD89006A7B09 /* ViewController.h */,
+				FCCA5FDF1D8BFD89006A7B09 /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		FCCA5FE51D8BFE65006A7B09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA5FE61D8BFE8D006A7B09 /* CustomClass.h */,
+				FCCA5FE71D8BFE8D006A7B09 /* CustomClass.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC296AED1D8A8971006CE701 /* Build configuration list for PBXNativeTarget "RuntimeSeris" */;
 			buildPhases = (
+				5591EDBA5CC605C2B41BB76F /* [CP] Check Pods Manifest.lock */,
 				FC296ABC1D8A8970006CE701 /* Sources */,
 				FC296ABD1D8A8970006CE701 /* Frameworks */,
 				FC296ABE1D8A8970006CE701 /* Resources */,
+				70B92800F6D06CA37DDC9166 /* [CP] Embed Pods Frameworks */,
+				1C8BE72232C4A06B184A9EC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,8 +290,8 @@
 				TargetAttributes = {
 					FC296ABF1D8A8970006CE701 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 628LRYYF8F;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = W7UTU6SPHU;
+						ProvisioningStyle = Manual;
 					};
 					FC296AD81D8A8971006CE701 = {
 						CreatedOnToolsVersion = 8.0;
@@ -271,14 +354,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C8BE72232C4A06B184A9EC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuntimeSeris/Pods-RuntimeSeris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5591EDBA5CC605C2B41BB76F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70B92800F6D06CA37DDC9166 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuntimeSeris/Pods-RuntimeSeris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC296ABC1D8A8970006CE701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC296ACB1D8A8971006CE701 /* ViewController.m in Sources */,
-				FC296AC81D8A8971006CE701 /* AppDelegate.m in Sources */,
+				FCCA5FE01D8BFD89006A7B09 /* ViewController.m in Sources */,
+				FCCA5FE81D8BFE8D006A7B09 /* CustomClass.m in Sources */,
 				FC296AC51D8A8971006CE701 /* main.m in Sources */,
+				FCCA5FE31D8BFDA8006A7B09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,25 +557,35 @@
 		};
 		FC296AEE1D8A8971006CE701 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACDDD6939927045B4BD40A41 /* Pods-RuntimeSeris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 628LRYYF8F;
+				DEVELOPMENT_TEAM = W7UTU6SPHU;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuntimeSeris/Basic/config.pch";
 				INFOPLIST_FILE = RuntimeSeris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kong.RuntimeSeris;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.runtimeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f40c4b99-ca47-41b7-bd4e-8ad98f7e3821";
+				PROVISIONING_PROFILE_SPECIFIER = runtimeAPP;
 			};
 			name = Debug;
 		};
 		FC296AEF1D8A8971006CE701 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6740F41E4FBA4C8C05278F /* Pods-RuntimeSeris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 628LRYYF8F;
+				DEVELOPMENT_TEAM = W7UTU6SPHU;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RuntimeSeris/Basic/config.pch";
 				INFOPLIST_FILE = RuntimeSeris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kong.RuntimeSeris;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kong.runtimeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f40c4b99-ca47-41b7-bd4e-8ad98f7e3821";
+				PROVISIONING_PROFILE_SPECIFIER = runtimeAPP;
 			};
 			name = Release;
 		};
@@ -516,6 +658,7 @@
 				FC296AEF1D8A8971006CE701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC296AF01D8A8971006CE701 /* Build configuration list for PBXNativeTarget "RuntimeSerisTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +667,7 @@
 				FC296AF21D8A8971006CE701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC296AF31D8A8971006CE701 /* Build configuration list for PBXNativeTarget "RuntimeSerisUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +676,7 @@
 				FC296AF51D8A8971006CE701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
