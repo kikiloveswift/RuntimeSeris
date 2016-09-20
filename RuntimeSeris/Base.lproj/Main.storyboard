@@ -33,7 +33,24 @@
                     <view key="view" contentMode="scaleToFill" id="BPH-aJ-z3f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlF-IY-SEv">
+                                <color key="backgroundColor" red="1" green="0.71678760141335895" blue="0.35836866085191654" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="07p-bf-KtT"/>
+                                    <constraint firstAttribute="width" constant="150" id="h0i-HG-W5q"/>
+                                </constraints>
+                                <state key="normal" title="PUSH WKWebView"/>
+                                <connections>
+                                    <action selector="btnAction:" destination="jRW-p6-Pr0" eventType="touchUpInside" id="9ma-Hd-YVB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XlF-IY-SEv" firstAttribute="centerX" secondItem="BPH-aJ-z3f" secondAttribute="centerX" id="4EP-dg-c97"/>
+                            <constraint firstItem="XlF-IY-SEv" firstAttribute="centerY" secondItem="BPH-aJ-z3f" secondAttribute="centerY" id="w9g-zl-eyJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JOP-D6-vDf"/>
                 </viewController>

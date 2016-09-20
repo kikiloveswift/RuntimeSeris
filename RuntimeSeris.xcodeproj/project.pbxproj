@@ -17,6 +17,8 @@
 		FCCA5FE01D8BFD89006A7B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FDF1D8BFD89006A7B09 /* ViewController.m */; };
 		FCCA5FE31D8BFDA8006A7B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FE21D8BFDA8006A7B09 /* AppDelegate.m */; };
 		FCCA5FE81D8BFE8D006A7B09 /* CustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA5FE71D8BFE8D006A7B09 /* CustomClass.m */; };
+		FCF3A40A1D9028F700C4C5E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3A4091D9028F700C4C5E2 /* WebKit.framework */; };
+		FCF3A40D1D9029D500C4C5E2 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF3A40C1D9029D500C4C5E2 /* WKViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		FCCA5FE61D8BFE8D006A7B09 /* CustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClass.h; sourceTree = "<group>"; };
 		FCCA5FE71D8BFE8D006A7B09 /* CustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClass.m; sourceTree = "<group>"; };
 		FCCA5FE91D8BFEC1006A7B09 /* config.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.pch; sourceTree = "<group>"; };
+		FCF3A4091D9028F700C4C5E2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FCF3A40B1D9029D500C4C5E2 /* WKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		FCF3A40C1D9029D500C4C5E2 /* WKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF3A40A1D9028F700C4C5E2 /* WebKit.framework in Frameworks */,
 				3D3EAE86D87F0716AE44D223 /* libPods-RuntimeSeris.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +105,7 @@
 		6F2CFDA99AB99626F45B14AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCF3A4091D9028F700C4C5E2 /* WebKit.framework */,
 				6D796E6C1307AE0B77CB6273 /* libPods-RuntimeSeris.a */,
 			);
 			name = Frameworks;
@@ -207,6 +214,8 @@
 			children = (
 				FCCA5FDE1D8BFD89006A7B09 /* ViewController.h */,
 				FCCA5FDF1D8BFD89006A7B09 /* ViewController.m */,
+				FCF3A40B1D9029D500C4C5E2 /* WKViewController.h */,
+				FCF3A40C1D9029D500C4C5E2 /* WKViewController.m */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -407,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF3A40D1D9029D500C4C5E2 /* WKViewController.m in Sources */,
 				FCCA5FE01D8BFD89006A7B09 /* ViewController.m in Sources */,
 				FCCA5FE81D8BFE8D006A7B09 /* CustomClass.m in Sources */,
 				FC296AC51D8A8971006CE701 /* main.m in Sources */,

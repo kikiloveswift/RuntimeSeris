@@ -8,16 +8,18 @@
 
 #import "ViewController.h"
 #import "CustomClass.h"
+#import "WKViewController.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
 //    objc_msgSend(self);
-    objc_msgSend(self,@selector(testTheMessageSender));
+//    objc_msgSend(self,@selector(testTheMessageSender));
 //    [self testTheMessageSender];
    
 }
@@ -30,9 +32,12 @@
 {
     CustomClass * custom = [[CustomClass alloc] init];
     objc_msgSend(custom,@selector(sayHelllo));
-    NSMutableArray *mArr;
+    NSMutableArray *mArr = [NSMutableArray array];
     [mArr addObject:@"Love"];
     NSLog(@"custom is %@",custom);
+
+    objc_msgSend(mArr, @selector(insertObject:atIndex:),@"Kong",1);
+    NSLog(@"mArr is %@",mArr);
 }
 
 
@@ -60,5 +65,11 @@
 {
     return YES;
 }
+- (IBAction)btnAction:(id)sender
+{
+    WKViewController *wkVC = [[WKViewController alloc] init];
+    [self.navigationController  pushViewController:wkVC animated:YES];
+}
+
 
 @end
